@@ -33,3 +33,7 @@
 .profile__button:hover {
   background-color: #ff646460;
 }
+
+.profile__text-button {
+  color: white;
+}
