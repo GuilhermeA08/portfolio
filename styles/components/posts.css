@@ -1,0 +1,28 @@
+.posts {
+  background-color: #edf7fa;
+  display: flex;
+  flex-direction: column;
+}
+.posts__title {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.post {
+  background-color: white;
+  width: 354px;
+  height: 266px;
+  margin: 0 auto;
+  margin-bottom: 17px;
+}
+
+.post__title {
+  margin: 12px 0;
+  margin-left: 19px;
+}
+
+.post__text {
+  margin-left: 19px;
+  margin-bottom: 19px;
+}
