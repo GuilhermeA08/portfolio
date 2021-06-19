@@ -10,8 +10,7 @@
 .profile__img {
   width: 174px;
   height: 179px;
-  margin: 0 auto;
-  margin-bottom: 34px;
+  margin: 34px auto;
 }
 
 .profile__title {
@@ -28,6 +27,7 @@
   border: none;
   border-radius: 2px;
   background-color: #ff6464;
+  margin-bottom: 50px;
 }
 
 .profile__button:hover {
