@@ -1,0 +1,37 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio__title {
+  font-size: 18px;
+  margin: 25px auto;
+}
+
+.portfolio__item {
+  margin-left: 18px;
+  margin-bottom: 17px;
+}
+
+.portfolio__img {
+  margin-bottom: 17px;
+}
+
+.portfolio__subtitle {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.portfolio__group-year {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+.portfolio__year {
+  margin-right: 22px;
+}
+
+.portfolio__type {
+  color: #8695a4;
+}
