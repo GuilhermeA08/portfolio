@@ -18,6 +18,9 @@
 }
 
 .post__title {
+  height: 60px;
+  font-size: 22px;
+  line-height: 30px;
   margin: 12px 0;
   margin-left: 19px;
 }
