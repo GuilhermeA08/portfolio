@@ -18,3 +18,19 @@ p {
   font-weight: 400;
   font-size: 16px;
 }
+
+.span {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .content {
+    display: none;
+  }
+  .span {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
