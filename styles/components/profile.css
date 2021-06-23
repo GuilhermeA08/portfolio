@@ -37,3 +37,32 @@
 .profile__text-button {
   color: white;
 }
+
+.profile--desktop {
+  display: none;
+}
+
+@media screen and (min-width: 450px) {
+  .profile--desktop {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 140px;
+  }
+
+  .profile__left {
+    max-width: 500px;
+  }
+
+  .profile__img {
+    margin: 0;
+    width: 243px;
+    height: 243px;
+  }
+
+  .profile {
+    display: none;
+  }
+}
