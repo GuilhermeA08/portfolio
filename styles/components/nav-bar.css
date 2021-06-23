@@ -23,6 +23,7 @@
 
   .nav-bar {
     gap: 32px;
+    margin-right: 15px;
   }
 
   .nav-bar__img {
