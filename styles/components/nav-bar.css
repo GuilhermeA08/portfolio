@@ -10,3 +10,22 @@
   height: 18px;
   margin-right: 18px;
 }
+
+.nav-bar--desktop {
+  font-size: 20px;
+  display: none;
+}
+
+@media screen and (min-width: 450px) {
+  .nav-bar--desktop {
+    display: block;
+  }
+
+  .nav-bar {
+    gap: 32px;
+  }
+
+  .nav-bar__img {
+    display: none;
+  }
+}
