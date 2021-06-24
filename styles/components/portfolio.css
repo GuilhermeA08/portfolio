@@ -35,3 +35,18 @@
 .portfolio__type {
   color: #8695a4;
 }
+
+.portfolio__item--desktop {
+  display: none;
+}
+
+@media screen and (min-width: 450px) {
+  .portfolio__item--desktop {
+    display: flex;
+    gap: 25px;
+  }
+
+  .portfolio__item {
+    display: none;
+  }
+}
